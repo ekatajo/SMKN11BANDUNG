@@ -46,11 +46,7 @@
                                                             </div>
                                                         </div>
                                                     </td>
-                                                    <td><i class="fa fa-circle-o text-success  mr-2"></i> Paid</td>
-                                                    <td>
-                                                        <span>Last Login</span>
-                                                        <span class="m-0 pl-3">50 sec ago</span>
-                                                    </td>
+                                                    
                                                 </tr>
                                                 <tr>
                                                     <td><img src="./images/avatar/3.jpg" class=" rounded-circle mr-3" alt="">Andrew D.</td>
@@ -63,11 +59,7 @@
                                                             </div>
                                                         </div>
                                                     </td>
-                                                    <td><i class="fa fa-circle-o text-warning  mr-2"></i> Pending</td>
-                                                    <td>
-                                                        <span>Last Login</span>
-                                                        <span class="m-0 pl-3">10 sec ago</span>
-                                                    </td>
+                                                    
                                                 </tr>
                                                 <tr>
                                                     <td><img src="./images/avatar/6.jpg" class=" rounded-circle mr-3" alt=""> Megan S.</td>
@@ -80,11 +72,7 @@
                                                             </div>
                                                         </div>
                                                     </td>
-                                                    <td><i class="fa fa-circle-o text-success  mr-2"></i> Paid</td>
-                                                    <td>
-                                                        <span>Last Login</span>
-                                                        <span class="m-0 pl-3">10 sec ago</span>
-                                                    </td>
+                                                    
                                                 </tr>
                                                 <tr>
                                                     <td><img src="./images/avatar/4.jpg" class=" rounded-circle mr-3" alt=""> Doris R.</td>
@@ -97,11 +85,7 @@
                                                             </div>
                                                         </div>
                                                     </td>
-                                                    <td><i class="fa fa-circle-o text-success  mr-2"></i> Paid</td>
-                                                    <td>
-                                                        <span>Last Login</span>
-                                                        <span class="m-0 pl-3">10 sec ago</span>
-                                                    </td>
+                                                    
                                                 </tr>
                                                 <tr>
                                                     <td><img src="./images/avatar/5.jpg" class=" rounded-circle mr-3" alt="">Elizabeth W.</td>
@@ -114,11 +98,7 @@
                                                             </div>
                                                         </div>
                                                     </td>
-                                                    <td><i class="fa fa-circle-o text-warning  mr-2"></i> Pending</td>
-                                                    <td>
-                                                        <span>Last Login</span>
-                                                        <span class="m-0 pl-3">10 sec ago</span>
-                                                    </td>
+                                                    
                                                 </tr>
                                             </tbody>
                                         </table>
