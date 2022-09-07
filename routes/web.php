@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\HubinController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,5 +19,9 @@ Route::get('/', function () {
 });
 
 Route::get('/hubin/perusahaan', function () {
-    return view('perusahaanhubin');
+    return view('perusahaanhubin', [
+        "title" =>  "Daftar Perusahaan"
+    ]);
 });
+
+// Route::get('/hubin/perusahaan', [HubinController::class, 'index']);

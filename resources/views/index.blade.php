@@ -244,7 +244,7 @@
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td><img src="./images/avatar/1.jpg" class=" rounded-circle mr-3" alt="">Sarah Smith</td>
+                                                    <td><img src="{{ asset('assets/./images/avatar/1.jpg') }}" class=" rounded-circle mr-3" alt="">Sarah Smith</td>
                                                     <td>iPhone X</td>
                                                     <td>
                                                         <span>United States</span>
