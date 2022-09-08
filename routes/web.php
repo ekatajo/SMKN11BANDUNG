@@ -16,13 +16,13 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('index', [
-        "title" =>  "Hubin"
+        "titleheader" =>  "Hubin"
     ]);
 });
 
 Route::get('/hubin/perusahaan', function () {
     return view('perusahaanhubin', [
-        "title" =>  "Daftar Perusahaan"
+        "titleheader" =>  "Daftar Perusahaan"
     ]);
 });
 
