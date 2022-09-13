@@ -84,3 +84,46 @@ table {
     height: 25px;
     border: 2px solid black;
   }
+
+  .calendar {
+    position: relative;
+    width: 200px;
+    background: #D9D9D9;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    color:  black;
+  }
+
+  .calendar #namaBulan {
+    position: relative;
+    padding: 5px 10px;
+    background: #f7b80a;
+    font-size: 20px;
+    font-weight: 650;
+  }
+
+  .calendar #namaHari {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 350;
+    color: #313336;
+  }
+
+  .calendar #tanggal {
+    margin-top: 0px;
+    line-height: 1em;
+    font-size: 70px;
+    font-weight: 700;
+  }
+
+  .calendar #tahun {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 350;
+    color: #313336;
+  }
+
+  .dafsis {
+    font-size: 200px;
+  }

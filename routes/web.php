@@ -16,18 +16,28 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('index', [
+        "title" =>  "Dashboard | Hubin",
         "titleheader" =>  "Hubin"
     ]);
 });
 
 Route::get('/hubin/perusahaan', function () {
     return view('perusahaanhubin', [
+        "title" =>  "Dashboard | Hubin Perusahaan",
         "titleheader" =>  "Daftar Perusahaan"
     ]);
 });
 
 Route::get('/siswa', function () {
     return view('jurnalsiswa', [
+        "title" =>  "Dashboard | Jurnal Siswa",
+        "titleheader" =>  "Jurnal Siswa"
+    ]);
+});
+
+Route::get('/pembimbingperusahaan', function () {
+    return view('pembimbing-perusahaan', [
+        "title" =>  "Dashboard | Jurnal Siswa",
         "titleheader" =>  "Jurnal Siswa"
     ]);
 });
