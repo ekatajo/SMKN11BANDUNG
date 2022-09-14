@@ -15,12 +15,8 @@ table {
 }
   
   table tr {
-<<<<<<< HEAD
     background-color: white;
     border: 1px solid #ddd;
-=======
-    background-color: #ffffff;
->>>>>>> a0c2fd3660ac6331e7005c51503790dc3d95230e
     padding: .35em;
   }
   
