@@ -88,17 +88,17 @@ table {
   .calendar {
     position: relative;
     width: 200px;
-    background: #D9D9D9;
+    background: #ffffff;
     text-align: center;
     border-radius: 10px;
     overflow: hidden;
-    color:  black;
+    color:  white;
   }
 
   .calendar #namaBulan {
     position: relative;
     padding: 5px 10px;
-    background: #f7b80a;
+    background: #000000;
     font-size: 20px;
     font-weight: 650;
   }
@@ -115,6 +115,7 @@ table {
     line-height: 1em;
     font-size: 70px;
     font-weight: 700;
+    color: black;
   }
 
   .calendar #tahun {
