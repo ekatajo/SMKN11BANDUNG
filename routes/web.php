@@ -49,5 +49,11 @@ Route::get('/sikapsiswa', function () {
     ]);
 });
 
+Route::get('/pemetaanpkl', function () {
+    return view('pemetaanpkl', [
+        "title" =>  "Dashboard | Jurnal Siswa",
+        "titleheader" =>  "Jurnal Siswa"
+    ]);
+});
 
 // Route::get('/hubin/perusahaan', [HubinController::class, 'index']);
