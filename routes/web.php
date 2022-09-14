@@ -42,4 +42,12 @@ Route::get('/pembimbingperusahaan', function () {
     ]);
 });
 
+Route::get('/sikapsiswa', function () {
+    return view('sikapsiswa', [
+        "title" =>  "Dashboard | Jurnal Siswa",
+        "titleheader" =>  "Jurnal Siswa"
+    ]);
+});
+
+
 // Route::get('/hubin/perusahaan', [HubinController::class, 'index']);

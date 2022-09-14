@@ -11,7 +11,7 @@
                 <div class="jumbotron jumbotron-fluid container2" style="border-radius: 16px;">
                     <div class="container">
                       <div class="row">
-                        <div class="col-6">
+                        <div class="col-6" style="padding-left:90px;">
                             <img class="ml-5 mt-3 avatar" src="{{ asset('assets/img/avatar-siswa.png') }}" alt="">
                         </div>
                         <div class="col mb-5" style="color: black; font-weight:600;">
