@@ -1,3 +1,6 @@
+*{
+  font-family: 'Mulish', sans-serif;
+}
 table {
     border: 1px solid #ccc;
     border-collapse: collapse;
@@ -88,17 +91,21 @@ table {
   .calendar {
     position: relative;
     width: 200px;
-    background: #D9D9D9;
+    background: #ffffff;
     text-align: center;
     border-radius: 10px;
     overflow: hidden;
-    color:  black;
+    color:  white;
   }
 
   .calendar #namaBulan {
     position: relative;
     padding: 5px 10px;
+<<<<<<< HEAD
     background: #395B64;
+=======
+    background: #000000;
+>>>>>>> 87f87ac37eaa430b226a9628375a03093c45c946
     font-size: 20px;
     font-weight: 650;
     color: white;
@@ -116,6 +123,7 @@ table {
     line-height: 1em;
     font-size: 70px;
     font-weight: 700;
+    color: black;
   }
 
   .calendar #tahun {
@@ -125,6 +133,7 @@ table {
     color: #313336;
   }
 
+<<<<<<< HEAD
   .avatar {
     display: flex;
     width: 150px;
@@ -132,3 +141,21 @@ table {
     margin-left: 100px;
   }
   
+=======
+  .dafsis {
+    font-size: 200px;
+  }
+  
+  .judul1{
+    font-weight: 600;
+    font-size: 26px;
+    color: black;
+  }
+
+  .container2{
+    width: 88%;
+    height: 80%;
+    margin: 0 auto;
+    border-radius: 70px;
+  }
+>>>>>>> 87f87ac37eaa430b226a9628375a03093c45c946
