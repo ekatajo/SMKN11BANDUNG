@@ -11,3 +11,4 @@ document.getElementById('namaBulan').innerHTML = namaBulan;
 document.getElementById('namaHari').innerHTML = namaHari;
 document.getElementById('tanggal').innerHTML = tanggal;
 document.getElementById('tahun').innerHTML = tahun;
+

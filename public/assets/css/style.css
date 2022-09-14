@@ -98,9 +98,10 @@ table {
   .calendar #namaBulan {
     position: relative;
     padding: 5px 10px;
-    background: #f7b80a;
+    background: #395B64;
     font-size: 20px;
     font-weight: 650;
+    color: white;
   }
 
   .calendar #namaHari {
@@ -124,6 +125,10 @@ table {
     color: #313336;
   }
 
-  .dafsis {
-    font-size: 200px;
+  .avatar {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    margin-left: 100px;
   }
+  

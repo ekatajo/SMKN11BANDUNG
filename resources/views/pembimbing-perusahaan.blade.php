@@ -55,7 +55,7 @@
         </div>
         <div class="row mt-5">
             <div class="col-8">
-
+                <div id="chartNilai"></div>
             </div>
             <div class="col">
                 <div class="calendar">
@@ -64,8 +64,8 @@
                     <p id="tanggal"></p>
                     <p id="tahun"></p>
                 </div>
-                <div class="row mt-3">
-                    <a href="" class="btn btn-primary dafsis">Lihat Semua Daftar Siswa</a>
+                <div class="row mt-3 dafsis" style="margin-right: 100px;">
+                    <a href="" class="btn btn-primary dafsis" >Lihat Semua Daftar Siswa</a>
                 </div>
             </div>
         </div>

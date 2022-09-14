@@ -11,8 +11,8 @@
                 <div class="jumbotron jumbotron-fluid rounded-lg">
                     <div class="container">
                       <div class="row">
-                        <div class="col-5">
-                            <img class="ml-5 mt-5" src="{{ asset('assets/img/avatar-siswa.png') }}" alt="">
+                        <div class="col-6">
+                            <img class="ml-5 mt-5 avatar" src="{{ asset('assets/img/avatar-siswa.png') }}" alt="">
                         </div>
                         <div class="col">
                             <p>Nama: <span>Galang Yudha Ilham</span></p>
@@ -71,12 +71,12 @@
                   </table>
             </div>
         </div>
-        <div class="row mt-4">
+        {{-- <div class="row mt-4">
             <div class="col">
                 <div class="nilai-rata">
                     <span>NA = (Nilai Rata Rata 1,2,3) x 80% + (Nilai Laporan PKL) x 20%</span>
                 </div>
             </div>
-        </div>
+        </div> --}}
     </div>
 @endsection
