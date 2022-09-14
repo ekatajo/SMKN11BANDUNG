@@ -2,7 +2,6 @@
   font-family: 'Mulish', sans-serif;
 }
 table {
-    border: 1px solid #ccc;
     border-collapse: collapse;
     margin: 0;
     padding: 0;
@@ -16,21 +15,25 @@ table {
 }
   
   table tr {
-    background-color: #f8f8f8;
-    border: 1px solid #ddd;
+    background-color: #ffffff;
     padding: .35em;
   }
   
   table th,
   table td {
     padding: .625em;
-    text-align: center;
   }
   
+  table td{
+    color: #000000;
+    font-weight: 600;
+    text-align: center;
+  }
   table th {
     font-size: .85em;
     letter-spacing: .1em;
-    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 1.5px solid #ddd;
   }
   
   @media screen and (max-width: 600px) {
@@ -151,4 +154,15 @@ table {
     height: 80%;
     margin: 0 auto;
     border-radius: 70px;
+  }
+
+ .tabelperusahaan{
+    text-decoration: none;
+  }
+
+  .teks1{
+    color: #9FA2B4;
+    font-size: 12px;
+    text-align: right;
+    margin-right: 40px;
   }
