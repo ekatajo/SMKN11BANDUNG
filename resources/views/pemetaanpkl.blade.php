@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <p class="text-center judul1 mt-4 mb-5">Laporan Kegiatan Harian Peserta Didik</p>
+                <p class="text-center judul1 mt-4 mb-5">Pemetaan Kompetensi Dasar Dalam Kegiatan PKL</p>
             </div>
         </div>
         <div class="row">
@@ -11,16 +11,13 @@
                 <div class="jumbotron jumbotron-fluid container2" style="border-radius: 16px;">
                     <div class="container">
                       <div class="row">
-                        <div class="col-6" style="padding-left:90px;">
-                            <img class="ml-5 mt-3 avatar" src="{{ asset('assets/img/avatar-siswa.png') }}" alt="">
-                        </div>
+
                         <div class="col mb-5" style="color: black; font-weight:600;">
-                            <p>Nama: <span>Galang Yudha Ilham</span></p>
-                            <p>Keahlian: <span>Rekayasa Perangkat Lunak</span></p>
-                            <p>Tahun Pelajaran: <span>2023</span></p>
-                            <p>Tempat Prakerin: <span>PT. Maju Mundur</span></p>
-                            <p>Nama Pembimbing PKL: <span>Saipul Jamil</span></p>
-                            <p>Jabatan: <span>Pembimbing</span></p>
+                            <p>Nama Dunia Kerja: <span></span></p>
+                            <p>Nama Sekolah: <span></span></p>
+                            <p>Bidang Keahlian: <span></span></p>
+                            <p>Program Keahlian: <span></span></p>
+                            <p>Kompetensi Keahlian: <span></span></p>
                         </div>
                       </div>
                     </div>
@@ -33,13 +30,12 @@
                     <thead>
                       <tr class="tab-head">
                         <th scope="col">No.</th>
-                        <th scope="col">Ativitas PKL</th>
-                        <th scope="col">Hari/Tgl Pelaksanaan</th>
-                        <th scope="col">Divisi/Dept</th>
-                        <th scope="col">Mulai Pukul</th>
-                        <th scope="col">Selesai Pukul</th>
-                        <th scope="col">Catatan Pembimbing</th>
-                        <th scope="col">Paraf Pembimbing</th>
+                        <th scope="col">Kompetensi Dasar</th>
+                        <th scope="col">Materi Pokok</th>
+                        <th scope="col">Pelaksanaan Pembelajaran di Sekolah</th>
+                        <th scope="col">Pelaksanaan Pembelajaran di Dunia Kerja</th>
+                        <th scope="col">Indikator Keberhasilan PKL</th>
+                        <th scope="col">Catatan</th>
                       </tr>
                     </thead>
                     <tbody>
