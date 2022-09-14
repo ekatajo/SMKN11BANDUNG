@@ -3,18 +3,18 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <h2 class="text-center">Laporan Kegiatan Harian Peserta Didik</h2>
+                <p class="text-center judul1 mt-4 mb-5">Laporan Kegiatan Harian Peserta Didik</p>
             </div>
         </div>
         <div class="row">
             <div class="col">
-                <div class="jumbotron jumbotron-fluid rounded-lg">
+                <div class="jumbotron jumbotron-fluid container2" style="border-radius: 16px;">
                     <div class="container">
                       <div class="row">
                         <div class="col-5">
                             <img class="ml-5 mt-5" src="{{ asset('assets/img/avatar-siswa.png') }}" alt="">
                         </div>
-                        <div class="col">
+                        <div class="col" style="color: black; font-weight:600;">
                             <p>Nama: <span>Galang Yudha Ilham</span></p>
                             <p>Keahlian: <span>Rekayasa Perangkat Lunak</span></p>
                             <p>Tahun Pelajaran: <span>2023</span></p>

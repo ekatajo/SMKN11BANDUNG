@@ -1,3 +1,6 @@
+*{
+  font-family: 'Mulish', sans-serif;
+}
 table {
     border: 1px solid #ccc;
     border-collapse: collapse;
@@ -127,4 +130,17 @@ table {
 
   .dafsis {
     font-size: 200px;
+  }
+  
+  .judul1{
+    font-weight: 600;
+    font-size: 26px;
+    color: black;
+  }
+
+  .container2{
+    width: 88%;
+    height: 80%;
+    margin: 0 auto;
+    border-radius: 70px;
   }
