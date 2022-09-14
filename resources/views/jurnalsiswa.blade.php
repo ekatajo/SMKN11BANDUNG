@@ -12,9 +12,9 @@
                     <div class="container">
                       <div class="row">
                         <div class="col-6">
-                            <img class="ml-5 mt-5 avatar" src="{{ asset('assets/img/avatar-siswa.png') }}" alt="">
+                            <img class="ml-5 mt-3 avatar" src="{{ asset('assets/img/avatar-siswa.png') }}" alt="">
                         </div>
-                        <div class="col" style="color: black; font-weight:600;">
+                        <div class="col mb-5" style="color: black; font-weight:600;">
                             <p>Nama: <span>Galang Yudha Ilham</span></p>
                             <p>Keahlian: <span>Rekayasa Perangkat Lunak</span></p>
                             <p>Tahun Pelajaran: <span>2023</span></p>
@@ -27,7 +27,7 @@
                   </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row mt-5">
             <div class="col">
                 <table>
                     <thead>
@@ -44,28 +44,36 @@
                     </thead>
                     <tbody>
                       <tr>
-                        <td data-label="Account">Visa - 3412</td>
-                        <td data-label="Due Date">04/01/2016</td>
-                        <td data-label="Amount">$1,190</td>
-                        <td data-label="Period">03/01/2016 - 03/31/2016</td>
+                        <td data-label="no">1</td>
+                        <td data-label="aktivitas">mengisi jurnal</td>
+                        <td data-label="tanggal">04/01/2016</td>
+                        <td data-label="divisi">IT</td>
+                        <td data-tabel="mulai">09.00</td>
+                        <td data-tabel="selesai">16.30</td>
                       </tr>
                       <tr>
-                        <td scope="row" data-label="Account">Visa - 6076</td>
-                        <td data-label="Due Date">03/01/2016</td>
-                        <td data-label="Amount">$2,443</td>
-                        <td data-label="Period">02/01/2016 - 02/29/2016</td>
+                        <td scope="row" data-label="Account">2</td>
+                        <td data-label="aktivitas">mengisi jurnal</td>
+                        <td data-label="tanggal">04/01/2016</td>
+                        <td data-label="divisi">IT</td>
+                        <td data-tabel="mulai">09.00</td>
+                        <td data-tabel="selesai">16.30</td>
                       </tr>
                       <tr>
-                        <td scope="row" data-label="Account">Corporate AMEX</td>
-                        <td data-label="Due Date">03/01/2016</td>
-                        <td data-label="Amount">$1,181</td>
-                        <td data-label="Period">02/01/2016 - 02/29/2016</td>
+                        <td scope="row" data-label="Account">3</td>
+                        <td data-label="aktivitas">mengisi jurnal</td>
+                        <td data-label="tanggal">03/01/2016</td>
+                        <td data-label="divisi">IT</td>
+                        <td data-tabel="mulai">09.00</td>
+                        <td data-tabel="selesai">16.30</td>
                       </tr>
                       <tr>
-                        <td scope="row" data-label="Acount">Visa - 3412</td>
-                        <td data-label="Due Date">02/01/2016</td>
-                        <td data-label="Amount">$842</td>
-                        <td data-label="Period">01/01/2016 - 01/31/2016</td>
+                        <td scope="row" data-label="Acount">4</td>
+                        <td data-label="aktivitas">mengisi jurnal</td>
+                        <td data-label="tanggal">02/01/2016</td>
+                        <td data-label="divisi">IT</td>
+                        <td data-tabel="mulai">09.00</td>
+                        <td data-tabel="selesai">16.30</td>
                       </tr>
                     </tbody>
                   </table>
