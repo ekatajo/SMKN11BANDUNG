@@ -16,7 +16,7 @@ table {
 }
   
   table tr {
-    background-color: #f8f8f8;
+    background-color: white;
     border: 1px solid #ddd;
     padding: .35em;
   }
@@ -136,8 +136,16 @@ table {
     margin-left: 100px;
   }
   
-  .dafsis {
-    font-size: 200px;
+  .dafsis button a:hover{
+    text-decoration: none;
+  }
+
+  .dafsis button {
+    font-size: 18px;
+    background: #395B64;
+    border-radius: 10px;
+    color: #ffffff;
+    border: none;
   }
   
   .judul1{

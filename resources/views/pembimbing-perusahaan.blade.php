@@ -65,7 +65,9 @@
                     <p id="tahun"></p>
                 </div>
                 <div class="row mt-3 dafsis" style="margin-right: 100px;">
-                    <a href="" class="btn btn-primary dafsis" >Lihat Semua Daftar Siswa</a>
+                    <button>
+                        <a href="">Lihat Semua Daftar Siswa</a>
+                    </button>
                 </div>
             </div>
         </div>
