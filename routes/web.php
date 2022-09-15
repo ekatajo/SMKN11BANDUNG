@@ -56,4 +56,18 @@ Route::get('/pemetaanpkl', function () {
     ]);
 });
 
+Route::get('/editakunsiswa', function () {
+    return view('editakunsiswa', [
+        "title" =>  "Dashboard | Edit Akun Siswa",
+        "titleheader" =>  "Edit Akun Siswa"
+    ]);
+});
+
+Route::get('/siswaterdaftarhubin', function () {
+    return view('siswaterdaftarhubin', [
+        "title" =>  "Dashboard | Siswa Terdaftar-Hubin",
+        "titleheader" =>  "Siswa Terdaftar - Hubin"
+    ]);
+});
+
 // Route::get('/hubin/perusahaan', [HubinController::class, 'index']);
