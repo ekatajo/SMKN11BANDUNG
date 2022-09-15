@@ -56,7 +56,6 @@ Route::get('/pemetaanpkl', function () {
     ]);
 });
 
-<<<<<<< HEAD
 Route::get('/editakunsiswa', function () {
     return view('editakunsiswa', [
         "title" =>  "Dashboard | Edit Akun Siswa",
@@ -71,7 +70,6 @@ Route::get('/siswaterdaftarhubin', function () {
     ]);
 });
 
-=======
 Route::get('/evaluasipkl', function () {
     return view('evaluasipkl', [
         "title" =>  "Dashboard | Jurnal Siswa",
@@ -85,5 +83,4 @@ Route::get('/hubin/siswa', function () {
         "titleheader" =>  "Jurnal Siswa"
     ]);
 });
->>>>>>> 7e44de322faf23c67fc7c12a3d1f5f95420c5146
 // Route::get('/hubin/perusahaan', [HubinController::class, 'index']);
