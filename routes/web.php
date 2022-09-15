@@ -56,4 +56,11 @@ Route::get('/pemetaanpkl', function () {
     ]);
 });
 
+Route::get('/evaluasipkl', function () {
+    return view('evaluasipkl', [
+        "title" =>  "Dashboard | Jurnal Siswa",
+        "titleheader" =>  "Jurnal Siswa"
+    ]);
+});
+
 // Route::get('/hubin/perusahaan', [HubinController::class, 'index']);
