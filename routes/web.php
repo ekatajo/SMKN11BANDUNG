@@ -63,4 +63,10 @@ Route::get('/evaluasipkl', function () {
     ]);
 });
 
+Route::get('/hubin/siswa', function () {
+    return view('daftarsiswahubin', [
+        "title" =>  "Dashboard | Jurnal Siswa",
+        "titleheader" =>  "Jurnal Siswa"
+    ]);
+});
 // Route::get('/hubin/perusahaan', [HubinController::class, 'index']);
