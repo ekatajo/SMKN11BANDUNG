@@ -83,6 +83,7 @@ Route::get('/hubin/siswa', function () {
         "titleheader" =>  "Jurnal Siswa"
     ]);
 });
+<<<<<<< HEAD
 
 Route::get('profilsiswa', function () {
     return view('profilsiswa', [
@@ -90,4 +91,6 @@ Route::get('profilsiswa', function () {
         "titleheader" =>  "Jurnal Siswa"
     ]);
 });
+=======
+>>>>>>> fc7f994e6fd4c21b22df5f6d474df283655a9ebc
 // Route::get('/hubin/perusahaan', [HubinController::class, 'index']);
