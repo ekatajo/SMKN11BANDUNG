@@ -66,7 +66,7 @@
                 </div>
                 <div class="row mt-3 dafsis" style="margin-right: 100px;">
                     <button>
-                        <a href="">Lihat Semua Daftar Siswa</a>
+                        <a style="color: white" href="">Lihat Semua Daftar Siswa</a>
                     </button>
                 </div>
             </div>

@@ -29,7 +29,7 @@
         </div>
         <div class="row mt-5">
             <div class="col">
-                <table>
+                <table style="margin-bottom:70px;">
                     <thead>
                       <tr class="tab-head">
                         <th scope="col">No.</th>

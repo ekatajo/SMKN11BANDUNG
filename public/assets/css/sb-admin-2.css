@@ -10320,7 +10320,7 @@ a:focus {
 }
 
 .sidebar {
-  width: 6.5rem;
+  width: 2rem;
   min-height: 100vh;
 }
 
@@ -10539,7 +10539,6 @@ a:focus {
     width: 14rem;
   }
   .sidebar .nav-item .nav-link i {
-    font-size: 0.85rem;
     margin-right: 0.25rem;
   }
   .sidebar .nav-item .nav-link span {
