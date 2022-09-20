@@ -35,7 +35,7 @@
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
                 <div class="sidebar-brand-icon">
-                    <img src="{{ asset('assets/img/logo.png') }}" alt="" style="width: 80%;">
+                    <img src="{{ asset('assets/img/e-prakerin white.png') }}" alt="" style="width: 100%;">
                 </div>
             </a>
 

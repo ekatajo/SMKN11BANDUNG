@@ -70,6 +70,13 @@ Route::get('/siswa/sikap', function () {
     ]);
 });
 
+Route::get('/siswa/daftarpkl', function () {
+    return view('daftarindustri-siswa', [
+        "title" =>  "Siswa | Daftar Industri",
+        "titleheader" =>  "Daftar Industri"
+    ]);
+});
+
 /* Route Pembimbing Perusahaan */
 Route::get('/pembimbingperusahaan', function () {
     return view('pembimbing-perusahaan', [
