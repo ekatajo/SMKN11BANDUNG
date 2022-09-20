@@ -175,3 +175,10 @@ table {
     text-align: right;
     margin-right: 40px;
   }
+
+  .buttonmaps{
+    border-radius: 20px;
+    border: 1px black;
+    width: 100px;
+    height: 30px;
+  }
