@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+/* Route Hubin */
 Route::get('/', function () {
     return view('index', [
         "title" =>  "Dashboard | Hubin",
@@ -23,64 +24,68 @@ Route::get('/', function () {
 
 Route::get('/hubin/perusahaan', function () {
     return view('perusahaanhubin', [
-        "title" =>  "Dashboard | Hubin Perusahaan",
+        "title" =>  "Hubin | Daftar Perusahaan",
         "titleheader" =>  "Daftar Perusahaan"
     ]);
 });
 
-Route::get('/siswa', function () {
-    return view('jurnalsiswa', [
-        "title" =>  "Dashboard | Jurnal Siswa",
-        "titleheader" =>  "Jurnal Siswa"
-    ]);
-});
-
-Route::get('/pembimbingperusahaan', function () {
-    return view('pembimbing-perusahaan', [
-        "title" =>  "Dashboard | Jurnal Siswa",
-        "titleheader" =>  "Jurnal Siswa"
-    ]);
-});
-
-Route::get('/sikapsiswa', function () {
-    return view('sikapsiswa', [
-        "title" =>  "Dashboard | Jurnal Siswa",
-        "titleheader" =>  "Jurnal Siswa"
-    ]);
-});
-
-Route::get('/pemetaanpkl', function () {
-    return view('pemetaanpkl', [
-        "title" =>  "Dashboard | Jurnal Siswa",
-        "titleheader" =>  "Jurnal Siswa"
-    ]);
-});
-
-Route::get('/editakunsiswa', function () {
+Route::get('/hubin/editakunsiswa', function () {
     return view('editakunsiswa', [
-        "title" =>  "Dashboard | Edit Akun Siswa",
+        "title" =>  "Hubin | Edit Akun Siswa",
         "titleheader" =>  "Edit Akun Siswa"
     ]);
 });
-
-Route::get('/siswaterdaftarhubin', function () {
-    return view('siswaterdaftarhubin', [
-        "title" =>  "Dashboard | Siswa Terdaftar-Hubin",
-        "titleheader" =>  "Siswa Terdaftar - Hubin"
+Route::get('/hubin/pemetaan', function () {
+    return view('pemetaanpkl', [
+        "title" =>  "Hubin | Pemetaan PKL",
+        "titleheader" =>  "Pemetaan PKL"
     ]);
 });
 
-Route::get('/evaluasipkl', function () {
-    return view('evaluasipkl', [
-        "title" =>  "Dashboard | Jurnal Siswa",
-        "titleheader" =>  "Jurnal Siswa"
+Route::get('/hubin/siswaterdaftarhubin', function () {
+    return view('siswaterdaftarhubin', [
+        "title" =>  "Hubin | Siswa Terdaftar",
+        "titleheader" =>  "Siswa Terdaftar"
     ]);
 });
 
 Route::get('/hubin/siswa', function () {
     return view('daftarsiswahubin', [
-        "title" =>  "Dashboard | Jurnal Siswa",
+        "title" =>  "Hubin | Daftar Siswa",
+        "titleheader" =>  "Daftar Siswa"
+    ]);
+});
+/* Route Siswa */
+Route::get('/siswa/jurnal', function () {
+    return view('jurnalsiswa', [
+        "title" =>  "Jurnal Siswa",
         "titleheader" =>  "Jurnal Siswa"
     ]);
 });
+
+Route::get('/siswa/sikap', function () {
+    return view('sikapsiswa', [
+        "title" =>  "Siswa | Nilai Sikap",
+        "titleheader" =>  "Nilai Sikap"
+    ]);
+});
+
+/* Route Pembimbing Perusahaan */
+Route::get('/pembimbingperusahaan', function () {
+    return view('pembimbing-perusahaan', [
+        "title" =>  "Dashboard | Pembimbing Perusahaan",
+        "titleheader" =>  "Dashboard"
+    ]);
+});
+
+
+
+/* Route Pembimbing Sekolah */
+Route::get('/evaluasipkl', function () {
+    return view('evaluasipkl', [
+        "title" =>  "Evaluasi PKL",
+        "titleheader" =>  "Evaluasi PKL"
+    ]);
+});
+
 // Route::get('/hubin/perusahaan', [HubinController::class, 'index']);
