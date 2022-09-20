@@ -7,7 +7,7 @@
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
                         <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
                         <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
-                                class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
+                                class="fas fa-download fa-sm text-white-50"></i>Eksport Data!</a>
                     </div>
 
                     <!-- Content Row -->
@@ -90,8 +90,100 @@
                         </div>
                     </div>
 
-                    <!-- Content Row -->
+                    <div class="row">
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="row">
+                                  <div class="col">
+                                    <h3>Semua Murid</h3>
+                                  </div>
+                                  <div class="col">
+                                    
+                                  </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <table class="table">
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">Nama</th>
+                                                <th scope="row">Nama Perusahaan</td>
+                                                <th scope="row">Kelas</td>
+                                              </tr>
+                                            <tr>
+                                                <th scope="row">Galang Yudha Ilham</th>
+                                                <td>PT. Maju Mundur</td>
+                                                <td>XI RPL-2</td>
+                                                <td>:</td>
+                                              </tr>
+                                            <tr>
+                                                <th scope="row">Galang Yudha Ilham</th>
+                                                <td>PT. Maju Mundur</td>
+                                                <td>XI RPL-2</td>
+                                                <td>:</td>
+                                              </tr>
+                                            <tr>
+                                                <th scope="row">Galang Yudha Ilham</th>
+                                                <td>PT. Maju Mundur</td>
+                                                <td>XI RPL-2</td>
+                                                <td>:</td>
+                                              </tr>
+                                            <tr>
+                                                <th scope="row">Galang Yudha Ilham</th>
+                                                <td>PT. Maju Mundur</td>
+                                                <td>XI RPL-2</td>
+                                                <td>:</td>
+                                              </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="row">
+                                  <div class="col">
+                                    <h3>Perusahaan</h3>
+                                  </div>
+                                  <div class="col">
+                                    
+                                  </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <table class="table">
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">Nama Perusahaan</th>
+                                                <th scope="row">Jumlah Murid</td>
+                                              </tr>
+                                            <tr>
+                                                <td>PT. Maju Mundur</td>
+                                                <td>5</td>
+                                              </tr>
+                                            <tr>
+                                                <td>PT. Sinar Jaya</td>
+                                                <td>6</td>
+                                              </tr>
+                                            <tr>
+                                                <td>PT. FS Indonesia</td>
+                                                <td>4</td>
+                                              </tr>
+                                            <tr>
+                                                <td>PT. Chlorine</td>
+                                                <td>5</td>
+                                              </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
 
+                    <!-- Content Row -->
+{{-- 
                     <div class="row">
 
                         <!-- Area Chart -->
@@ -319,7 +411,7 @@
                             </div>
 
                         </div>
-                    </div>
+                    </div> --}}
 
                 </div>
                 <!-- /.container-fluid -->
