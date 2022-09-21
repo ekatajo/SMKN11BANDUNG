@@ -1,7 +1,10 @@
 <?php
 
-use App\Http\Controllers\HubinController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HubinController;
+use App\Http\Controllers\SiswaController;
+use App\Http\Controllers\SekolahController;
+use App\Http\Controllers\PerusahaanController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,78 +24,28 @@ Route::get('/', function () {
         "titleheader" =>  "SMKN 11 Bandung"
     ]);
 });
+Route::get('/hubin/perusahaan', [HubinController::class, 'hubinperusahaan'])->name('hubinperusahaan');
+Route::get('/hubin/editakunsiswa', [HubinController::class, 'hubineditakunsiswa'])->name('hubineditakunsiswa');
+Route::get('/hubin/pemetaan', [HubinController::class, 'hubinpemetaan'])->name('hubinpemetaan');
+Route::get('/hubin/siswaterdaftarhubin', [HubinController::class, 'siswaterdaftarhubin'])->name('siswaterdaftarhubin');
+Route::get('/hubin/siswa', [HubinController::class, 'daftarsiswahubin'])->name('daftarsiswahubin');
 
-Route::get('/hubin/perusahaan', function () {
-    return view('perusahaanhubin', [
-        "title" =>  "Hubin | Daftar Perusahaan",
-        "titleheader" =>  "Daftar Perusahaan"
-    ]);
-});
 
-Route::get('/hubin/editakunsiswa', function () {
-    return view('editakunsiswa', [
-        "title" =>  "Hubin | Edit Akun Siswa",
-        "titleheader" =>  "Edit Akun Siswa"
-    ]);
-});
-Route::get('/hubin/pemetaan', function () {
-    return view('pemetaanpkl', [
-        "title" =>  "Hubin | Pemetaan PKL",
-        "titleheader" =>  "Pemetaan PKL"
-    ]);
-});
 
-Route::get('/hubin/siswaterdaftarhubin', function () {
-    return view('siswaterdaftarhubin', [
-        "title" =>  "Hubin | Siswa Terdaftar",
-        "titleheader" =>  "Siswa Terdaftar"
-    ]);
-});
-
-Route::get('/hubin/siswa', function () {
-    return view('daftarsiswahubin', [
-        "title" =>  "Hubin | Daftar Siswa",
-        "titleheader" =>  "Daftar Siswa"
-    ]);
-});
 /* Route Siswa */
-Route::get('/siswa/jurnal', function () {
-    return view('jurnalsiswa', [
-        "title" =>  "Jurnal Siswa",
-        "titleheader" =>  "Jurnal Siswa"
-    ]);
-});
+Route::get('/siswa/jurnal', [SiswaController::class, 'jurnalsiswa'])->name('jurnalsiswa');
+Route::get('/siswa/sikap', [SiswaController::class, 'sikapsiswa'])->name('sikapsiswa');
+Route::get('/siswa/daftarpkl', [SiswaController::class, 'daftarindustrisiswa'])->name('daftarindustrisiswa');
 
-Route::get('/siswa/sikap', function () {
-    return view('sikapsiswa', [
-        "title" =>  "Siswa | Nilai Sikap",
-        "titleheader" =>  "Nilai Sikap"
-    ]);
-});
-
-Route::get('/siswa/daftarpkl', function () {
-    return view('daftarindustri-siswa', [
-        "title" =>  "Siswa | Daftar Industri",
-        "titleheader" =>  "Daftar Industri"
-    ]);
-});
 
 /* Route Pembimbing Perusahaan */
-Route::get('/pembimbingperusahaan', function () {
-    return view('pembimbing-perusahaan', [
-        "title" =>  "Dashboard | Pembimbing Perusahaan",
-        "titleheader" =>  "Dashboard"
-    ]);
-});
+Route::get('/pembimbingperusahaan', [PerusahaanController::class, 'pembimbingperusahaan'])->name('pembimbingperusahaan');
+
 
 
 
 /* Route Pembimbing Sekolah */
-Route::get('/evaluasipkl', function () {
-    return view('evaluasipkl', [
-        "title" =>  "Evaluasi PKL",
-        "titleheader" =>  "Evaluasi PKL"
-    ]);
-});
+Route::get('/evaluasipkl', [SekolahController::class, 'evaluasipkl'])->name('evaluasipkl');
+
 
 // Route::get('/hubin/perusahaan', [HubinController::class, 'index']);
