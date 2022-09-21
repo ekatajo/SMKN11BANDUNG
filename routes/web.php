@@ -21,7 +21,7 @@ use App\Http\Controllers\PerusahaanController;
 Route::get('/', function () {
     return view('index', [
         "title" =>  "Dashboard | Hubin",
-        "titleheader" =>  "SMKN 11 Bandung"
+        "titleheader" =>  "Dashboard"
     ]);
 });
 Route::get('/hubin/perusahaan', [HubinController::class, 'hubinperusahaan'])->name('hubinperusahaan');
