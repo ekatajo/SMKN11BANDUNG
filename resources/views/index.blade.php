@@ -3,24 +3,20 @@
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
 
-                    <!-- Page Heading -->
-                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
-                                class="fas fa-download fa-sm text-white-50"></i>Eksport Data!</a>
-                    </div>
+                   
 
                     <!-- Content Row -->
                     <div class="row">
 
                         <!-- Earnings (Monthly) Card Example -->
                         <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card border-left-primary shadow h-100 py-2">
+                            <div class="card border-left shadow h-100 py-2">
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                            <div class="text-xs font-weight-bold text-uppercase mb-1 jml-peru">
                                                 Jumlah Perusahaan</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800">$40,000</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">60</div>
                                         </div>
                                         <div class="col-auto">
                                             <i class="fa-solid fa-industry fa-2x text-gray-300"></i>
@@ -32,13 +28,13 @@
 
                         <!-- Earnings (Monthly) Card Example -->
                         <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card border-left-success shadow h-100 py-2">
+                            <div class="card border-left shadow h-100 py-2">
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                                            <div class="text-xs font-weight-bold text-uppercase mb-1 jml-peru">
                                                 Jumlah Murid</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800">$215,000</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">107</div>
                                         </div>
                                         <div class="col-auto">
                                             <i class="fa-solid fa-person fa-2x text-gray-300"></i>
@@ -50,15 +46,15 @@
 
                         <!-- Earnings (Monthly) Card Example -->
                         <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card border-left-info shadow h-100 py-2">
+                            <div class="card border-left shadow h-100 py-2">
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Siswa Terdaftar
+                                            <div class="text-xs font-weight-bold text-uppercase mb-1 jml-peru">Siswa Terdaftar
                                             </div>
                                             <div class="row no-gutters align-items-center">
                                                 <div class="col-auto">
-                                                    <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">50%</div>
+                                                    <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">43</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -72,13 +68,13 @@
 
                         <!-- Pending Requests Card Example -->
                         <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card border-left-warning shadow h-100 py-2">
+                            <div class="card border-left shadow h-100 py-2">
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
+                                            <div class="text-xs font-weight-bold text-uppercase mb-1 jml-peru">
                                                 Siswa Belum Terdaftar</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800">18</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">64</div>
                                         </div>
                                         <div class="col-auto">
                                             <i class="fa-regular fa-person-circle-xmark fa-2x text-gray-300"></i>
@@ -95,19 +91,20 @@
                                 <div class="card-body">
                                     <div class="row">
                                   <div class="col">
-                                    <h3>Semua Murid</h3>
+                                    <h4>Semua Murid</h4>
                                   </div>
                                   <div class="col">
                                     
                                   </div>
                                 </div>
-                                <div class="row mt-3">
+                                <div class="row mt-3 peru">
                                     <table class="table">
                                         <tbody>
                                             <tr>
                                                 <th scope="row">Nama</th>
-                                                <th scope="row">Nama Perusahaan</td>
-                                                <th scope="row">Kelas</td>
+                                                <th scope="row">Nama Perusahaan</th>
+                                                <th scope="row">Kelas</th>
+                                                <th scope="row"></th>
                                               </tr>
                                             <tr>
                                                 <th scope="row">Galang Yudha Ilham</th>
@@ -144,13 +141,13 @@
                                 <div class="card-body">
                                     <div class="row">
                                   <div class="col">
-                                    <h3>Perusahaan</h3>
+                                    <h4>Perusahaan</h4>
                                   </div>
                                   <div class="col">
                                     
                                   </div>
                                 </div>
-                                <div class="row mt-3">
+                                <div class="row mt-3 peru">
                                     <table class="table">
                                         <tbody>
                                             <tr>

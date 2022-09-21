@@ -182,3 +182,12 @@ table {
     width: 100px;
     height: 30px;
   }
+
+  .peru {
+    font-size: 13px;
+  }
+
+  .no-gutters{
+    font-family: 'Mulish', sans-serif;
+  }
+  

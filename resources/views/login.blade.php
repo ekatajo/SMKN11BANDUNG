@@ -68,6 +68,14 @@
         font-weight: 700;
         text-align: center;
       }
+
+      .field-icon {
+        float: right;
+        margin-left: -25px;
+        margin-top: -25px;
+        position: relative;
+        z-index: 2;
+}
     </style>
   </head>
   <body style="background-color: #28404d">
@@ -84,7 +92,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-10">
+        <div class="col-10" id="show_hide_password">
           <input
             type="text"
             class="form-control inputan"
@@ -94,7 +102,9 @@
             type="password"
             class="form-control inputan"
             placeholder="Password"
+            id="password"
           />
+          <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password" id="eyepass" onclick="toggle()"></span>
         </div>
       </div>
       <div class="row">
@@ -109,8 +119,15 @@
           <div></div>
         </div>
       </div>
-    </div>
+    </div>  
 
+    <script>
+      
+    </script>
+
+    
+
+<script src="https://code.jquery.com/jquery-3.6.1.slim.js" integrity="sha256-tXm+sa1uzsbFnbXt8GJqsgi2Tw+m4BLGDof6eUPjbtk=" crossorigin="anonymous"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
       integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
