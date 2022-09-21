@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HubinController;
+use App\Http\Controllers\LoginController;
 use App\Http\Controllers\SiswaController;
 use App\Http\Controllers\SekolahController;
 use App\Http\Controllers\PerusahaanController;
@@ -49,3 +50,6 @@ Route::get('/evaluasipkl', [SekolahController::class, 'evaluasipkl'])->name('eva
 
 
 // Route::get('/hubin/perusahaan', [HubinController::class, 'index']);
+
+/*Route Login*/
+Route::get('/login', [LoginController::class, 'viewlogin'])->name('viewlogin');
