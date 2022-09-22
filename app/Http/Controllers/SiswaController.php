@@ -27,4 +27,11 @@ class SiswaController extends Controller
         ]);
     }
 
+    public function profilsiswa(){
+        return view('siswa.profilsiswa', [
+            'title' =>  'Siswa | Profil Siswa',
+            'titleheader'   =>  'Profil Siswa'
+        ]);
+    }
+
 }

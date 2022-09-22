@@ -131,7 +131,7 @@ nav{
       <div class="container-fluid" style="background-color: transparent;">
         <div class="row">
           <div class="col-3">
-            <img src="assets/img/logo e-prakerin white.png" style="width: 75%; margin-top: -75px;">
+            <img src="{{ asset('assets/img/e-prakerin white.png') }}" style="width: 65%; margin-top: -10px;">
           </div>
           <div class="col-2" style="margin-top: 25px;">
             <a href="#" class="ftext nav2">Beranda</a>
