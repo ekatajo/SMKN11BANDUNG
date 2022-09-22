@@ -53,6 +53,7 @@
     <title>Hello, world!</title>
   </head>
   <body>
+    <div class="container">
         <div class="row ml-5 mt-5">
             <div class="col">
                 <a href="#"><i class="fa-sharp fa-solid fa-arrow-left"></i></a>
@@ -72,10 +73,11 @@
             </div>
             <div class="row text-right upload-button mr-2">
                 <div class="col">
-                    <button type="button" class="btn btn-secondary">Upload!</button>
+                    <button type="button" class="btn btn-secondary mt-4 mb-5">Upload!</button>
                 </div>
             </div>
         </div>
+    </div>
     </div>
     
     <!-- Optional JavaScript; choose one of the two! -->

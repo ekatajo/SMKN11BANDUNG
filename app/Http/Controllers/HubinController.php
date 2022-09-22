@@ -46,4 +46,11 @@ class HubinController extends Controller
             'titleheader'   =>  'Daftar Siswa'
         ]);
     }
+
+    public function cetaksurat(){
+        return view('hubin.cetaksurat', [
+            'title' =>  'Hubin | Cetak Surat',
+            'titleheader'   =>  'Cetak Surat'
+        ]);
+    }
 }

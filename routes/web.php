@@ -25,12 +25,20 @@ Route::get('/', function () {
         "titleheader" =>  "Dashboard"
     ]);
 });
+
+Route::get('/dashboard/hubin', function () {
+    return view('index', [
+        "title" =>  "Dashboard | Hubin",
+        "titleheader" =>  "Dashboard"
+    ]);
+});
+
 Route::get('/hubin/perusahaan', [HubinController::class, 'hubinperusahaan'])->name('hubinperusahaan');
 Route::get('/hubin/editakunsiswa', [HubinController::class, 'hubineditakunsiswa'])->name('hubineditakunsiswa');
 Route::get('/hubin/pemetaan', [HubinController::class, 'hubinpemetaan'])->name('hubinpemetaan');
 Route::get('/hubin/siswaterdaftar', [HubinController::class, 'siswaterdaftarhubin'])->name('siswaterdaftarhubin');
 Route::get('/hubin/siswa', [HubinController::class, 'daftarsiswahubin'])->name('daftarsiswahubin');
-
+Route::get('/hubin/cetaksurat', [HubinController::class, 'cetaksurat'])->name('cetaksurat');
 
 
 /* Route Siswa */
