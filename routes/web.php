@@ -28,7 +28,7 @@ Route::get('/', function () {
 Route::get('/hubin/perusahaan', [HubinController::class, 'hubinperusahaan'])->name('hubinperusahaan');
 Route::get('/hubin/editakunsiswa', [HubinController::class, 'hubineditakunsiswa'])->name('hubineditakunsiswa');
 Route::get('/hubin/pemetaan', [HubinController::class, 'hubinpemetaan'])->name('hubinpemetaan');
-Route::get('/hubin/siswaterdaftarhubin', [HubinController::class, 'siswaterdaftarhubin'])->name('siswaterdaftarhubin');
+Route::get('/hubin/siswaterdaftar', [HubinController::class, 'siswaterdaftarhubin'])->name('siswaterdaftarhubin');
 Route::get('/hubin/siswa', [HubinController::class, 'daftarsiswahubin'])->name('daftarsiswahubin');
 
 
@@ -37,7 +37,7 @@ Route::get('/hubin/siswa', [HubinController::class, 'daftarsiswahubin'])->name('
 Route::get('/siswa/jurnal', [SiswaController::class, 'jurnalsiswa'])->name('jurnalsiswa');
 Route::get('/siswa/sikap', [SiswaController::class, 'sikapsiswa'])->name('sikapsiswa');
 Route::get('/siswa/daftarpkl', [SiswaController::class, 'daftarindustrisiswa'])->name('daftarindustrisiswa');
-
+Route::get('/siswa/profil', [SiswaController::class, 'profilsiswa'])->name('profilsiswa');
 
 /* Route Pembimbing Perusahaan */
 Route::get('/pembimbingperusahaan', [PerusahaanController::class, 'pembimbingperusahaan'])->name('pembimbingperusahaan');
