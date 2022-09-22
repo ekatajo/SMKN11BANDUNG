@@ -20,7 +20,7 @@ use App\Http\Controllers\PerusahaanController;
 
 /* Route Hubin */
 Route::get('/', function () {
-    return view('index', [
+    return view('welcome', [
         "title" =>  "Dashboard | Hubin",
         "titleheader" =>  "Dashboard"
     ]);
