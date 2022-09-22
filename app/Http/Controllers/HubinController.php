@@ -26,6 +26,13 @@ class HubinController extends Controller
         ]);
     }
 
+    public function hubineditakunsiswa (){
+        return view('hubin.editakunsiswa', [
+            'title' =>  'Daftar Perusahaan',
+            'titleheader'   =>  'Daftar Perusahaan'
+        ]);
+    }
+
     public function siswaterdaftarhubin(){
         return view('hubin.siswaterdaftarhubin', [
             'title' =>  'Hubin | Siswa Terdaftar',

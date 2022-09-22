@@ -20,7 +20,7 @@ use App\Http\Controllers\PerusahaanController;
 
 /* Route Hubin */
 Route::get('/', function () {
-    return view('index', [
+    return view('welcome', [
         "title" =>  "Dashboard | Hubin",
         "titleheader" =>  "Dashboard"
     ]);
@@ -53,3 +53,7 @@ Route::get('/evaluasipkl', [SekolahController::class, 'evaluasipkl'])->name('eva
 
 /*Route Login*/
 Route::get('/login', [LoginController::class, 'viewlogin'])->name('viewlogin');
+
+Route::get('/importdata', function(){
+    return view('hubin.upload');
+});
