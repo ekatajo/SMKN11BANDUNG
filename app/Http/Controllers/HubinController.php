@@ -7,6 +7,13 @@ use App\Models\Siswa;
 
 class HubinController extends Controller
 {
+
+    public function dashboardhubin(){
+        return view('hubin.daftarsiswahubin', [
+            'title' =>  'Dashboard | Hubin',
+            'titleheader'   =>  'Dashboard Hubin'
+        ]);
+    }
     public function index(){
         return view('perusahaanhubin', [
             'title' => 'Daftar Perusahaan'

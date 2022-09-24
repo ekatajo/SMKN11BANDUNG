@@ -26,13 +26,6 @@ Route::get('/', function () {
     ]);
 });
 
-Route::get('/dashboard/hubin', function () {
-    return view('index', [
-        "title" =>  "Dashboard | Hubin",
-        "titleheader" =>  "Dashboard"
-    ]);
-});
-
 Route::get('/hubin/perusahaan', [HubinController::class, 'hubinperusahaan'])->name('hubinperusahaan');
 Route::get('/hubin/editakunsiswa', [HubinController::class, 'hubineditakunsiswa'])->name('hubineditakunsiswa');
 Route::get('/hubin/pemetaan', [HubinController::class, 'hubinpemetaan'])->name('hubinpemetaan');
@@ -65,12 +58,11 @@ Route::get('/login', [LoginController::class, 'viewlogin'])->name('viewlogin');
 Route::post('/postlogin', [LoginController::class, 'postlogin'])->name('postlogin');
 Route::get('/logout', [LoginController::class, 'logout'])->name('logout');
 
-Route::group(['middleware'  =>  ['auth','ceklevel:admin,siswa']], function(){
-
+Route::middleware(['auth','ceklevel:hubin'])->group(function(){
+    route::get('/dashboard/hubin', [HubinController::class, 'dashboardhubin'])->name('dashboardhubin');
 });
 
-Route::group(['middleware'  =>  ['auth','ceklevel:siswa']], function(){
-
+Route::middleware(['auth','ceklevel:siswa'])->group(function(){
 
 });
 
