@@ -91,15 +91,19 @@
           <p class="welcome">WELCOME TO E-PRAKERIN</p>
         </div>
       </div>
+      <form action="{{ route('postlogin') }}" method="POST">
+        @csrf
       <div class="row">
         <div class="col-10" id="show_hide_password">
           <input
             type="text"
+            name="username"
             class="form-control inputan"
             placeholder="Username"
           />
           <input
             type="password"
+            name="password"
             class="form-control inputan"
             placeholder="Password"
             id="password"
@@ -110,11 +114,12 @@
       </div>
       <div class="row">
         <div class="col-12 mt-5 mb-5" style="text-align: center">
-          <button type="button" class="button-login">
-            <p style="color: white; font-weight: 600; font-size: 20px">Login</p>
+          <button type="submit" class="button-login">
+          <p style="color: white; font-weight: 600; font-size: 20px">Login</p>
           </button>
         </div>
       </div>
+    </form>
       <div class="row">
         <div class="col">
           <div></div>

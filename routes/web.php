@@ -62,6 +62,18 @@ Route::get('/evaluasipkl', [SekolahController::class, 'evaluasipkl'])->name('eva
 /*Route Login*/
 Route::get('/login', [LoginController::class, 'viewlogin'])->name('viewlogin');
 
+Route::post('/postlogin', [LoginController::class, 'postlogin'])->name('postlogin');
+Route::get('/logout', [LoginController::class, 'logout'])->name('logout');
+
+Route::group(['middleware'  =>  ['auth','ceklevel:admin,siswa']], function(){
+
+});
+
+Route::group(['middleware'  =>  ['auth','ceklevel:siswa']], function(){
+
+
+});
+
 Route::get('/importdata', function(){
     return view('hubin.upload');
 });
