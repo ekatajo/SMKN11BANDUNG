@@ -15,14 +15,14 @@ return new class extends Migration
     {
         Schema::create('siswas', function (Blueprint $table) {
             $table->char('nis')->primary();
-            $table->char('id_sekolah');
-            $table->char('id_jurusan');
+            $table->char('id_sekolah')->nullable();
+            $table->char('id_jurusan')->nullable();
             $table->string('NamaSiswa');
             $table->string('kelas');
-            $table->date('Tgllahir');
+            $table->date('Tgllahir')->nullable();
             $table->string('Tmplahir');
             $table->string('Alamat_Siswa');
-            $table->integer('NoTelp');
+            $table->integer('NoTelp')->nullable();
             $table->string('email');
             $table->timestamps();
         });

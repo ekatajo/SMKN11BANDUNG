@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Siswa;
 
 class HubinController extends Controller
 {
@@ -41,10 +42,13 @@ class HubinController extends Controller
     }
     
     public function daftarsiswahubin(){
+        $data = Siswa::all();
+
+
         return view('hubin.daftarsiswahubin', [
             'title' =>  'Hubin | Daftar Siswa',
             'titleheader'   =>  'Daftar Siswa'
-        ]);
+        ], compact('data'));
     }
 
     public function cetaksurat(){

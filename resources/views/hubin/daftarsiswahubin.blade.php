@@ -15,13 +15,20 @@
                             <th>Nama Perusahaan</th>
                             <th>Divisi</th>
                         </tr>
+                        <?php 
+                            $i = 1;
+
+                            $i++;
+                        ?>
+                        @foreach ($data as $d)
                         <tr>
-                            <td>1</td>
-                            <td>Dadang</td>
-                            <td>XII - RPL 1</td>
+                            <td>{{ $d->nis }}</td>
+                            <td>{{ $d->NamaSiswa }}</td>
+                            <td>{{ $d->kelas }}</td>
                             <td>PT SCOLA LMS</td>
                             <td>IT</td>
                         </tr>
+                        @endforeach
                        <tr>
                             <td>2</td>
                             <td>Diding</td>
