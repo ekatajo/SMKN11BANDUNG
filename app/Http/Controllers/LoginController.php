@@ -19,13 +19,13 @@ class LoginController extends Controller
             if(auth()->user()->role == 'hubin'){
                 return redirect('/dashboard/hubin');
             }
-            else if(auth()->user()->level == 'siswa'){
+            else if(auth()->user()->role == 'siswa'){
                 return redirect('/dashboard/siswa');
             }
-            else if(auth()->user()->level == 'pembimbing sekolah'){
+            else if(auth()->user()->role == 'pembimbing sekolah'){
                 return redirect('/dashboard/pembimbing-sekolah');
             }
-            else if(auth()->user()->level == 'pembimbing perusahaan'){
+            else if(auth()->user()->role == 'pembimbing perusahaan'){
                 return redirect('/dashboard/pembimbing-sekolah');
             }
             else {

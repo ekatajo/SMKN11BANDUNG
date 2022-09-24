@@ -17,7 +17,7 @@ class CekLevel
      */
     public function handle(Request $request, Closure $next, $role)
     {
-        if(Auth::check() && Auth::user->role == $role){
+        if(Auth::check() && Auth::user()->role == $role){
             return $next($request);
         }
         return response()->json(["Anda Tidak Memiliki Izin!"]);
