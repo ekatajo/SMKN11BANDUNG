@@ -19,8 +19,9 @@ class User extends Authenticatable
      * @var array<int, string>
      */
     protected $fillable = [
-        'name',
-        'email',
+        'kode_user',
+        'username',
+        'level',
         'password',
     ];
 
@@ -43,9 +44,10 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
-    protected function role(): Attribute {
+    protected function role(): Attribute
+    {
         return new Attribute(
-            get: fn($value) =>  ["hubin", "siswa", "pembimbing sekolah", "pembimbing perusahaan"]
+            get: fn ($value) =>  ["kurikulum", "siswa", "walikelas", "guru"]
         );
     }
 }

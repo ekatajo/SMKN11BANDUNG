@@ -5,40 +5,47 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Spatie\FlareClient\View;
 use Illuminate\Support\Facades\Auth;
+use App\Models\Siswa;
 
 class LoginController extends Controller
 {
-    public function viewlogin(){
+    public function viewlogin()
+    {
         return view('login', [
-            'title' =>  'Login E-Prakerin'
+            'title' =>  'Raport Diagnostik'
         ]);
     }
 
-    public function postlogin(request $request){
-        if(Auth::attempt($request->only('username', 'password'))){
-            if(auth()->user()->role == 'hubin'){
-                return redirect('/dashboard/hubin');
-            }
-            else if(auth()->user()->role == 'siswa'){
-                return redirect('/dashboard/siswa');
-            }
-            else if(auth()->user()->role == 'pembimbing sekolah'){
-                return redirect('/dashboard/pembimbing-sekolah');
-            }
-            else if(auth()->user()->role == 'pembimbing perusahaan'){
-                return redirect('/dashboard/pembimbing-sekolah');
-            }
-            else {
-                return redirect('/');
+    // Tujukan pada saat Login pastikan saat Logout Tidak bisa diback dan tembak URLnya
+    public function postlogin(request $request)
+    {
+        // if (Auth::attempt($request->only('username', 'password'))) {
+        if (Auth::guard('guru')->attempt([
+            'username' => $request->username, 'password' => $request->password
+        ])) {
+            $request->session()->regenerate();
+            if (\Auth::guard('guru')->user()->level == 'Kurikulum') {
+                return redirect('/kurikulum');
+            } else if (\Auth::guard('guru')->user()->level == 'Guru') {
+                return redirect('/guru');
             }
         }
-            else {
-                return redirect('/login');
-            }
+
+        if (Auth::guard('siswa')->attempt([
+            'username' => $request->username, 'password' => $request->password
+        ])) {
+            $siswa = Siswa::where('username', $request->username);
+            $request->session()->regenerate();
+            return redirect('/siswa');
+        }
+        return redirect('/login')->with('gagal-login', 'Username Atau Password Salah!');;
     }
 
-    public function logout(request $request){
+    public function logout(Request $request)
+    {
         Auth::logout();
+        request()->session()->invalidate();
+        request()->session()->regenerateToken();
         return redirect('/login');
     }
 }
