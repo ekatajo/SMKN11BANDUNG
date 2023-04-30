@@ -130,7 +130,10 @@ class KurikulumController extends Controller
     // Raport Siswa
     public function raport($kode, Siswa $siswa)
     {
+        // Ambil Model Mapel dengan relasi komponen, dan komponen mempunyai relasi nilai dengan siswa = nis
+        // Wherehas = Cek relasi, With = Ambil Relasi.
         $mapel = Mapel::with(['komponen' => function ($query) use ($siswa) {
+            // Karena Function jadi return dulu ngecek baru ambil
             return $query->whereHas('nilai', function ($query2) use ($siswa) {
                 $query2->where('nis', $siswa->nis);
             })->with(['nilai' => function ($query3) use ($siswa) {

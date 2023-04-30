@@ -108,6 +108,7 @@
 
                     <h5 style="color: #682773;"><b>Komponen Saya</b></h5>
     <hr style=" border-top: 1px dashed;">
+    {{-- Looping data sebanyak atau dimulai index dari $i = 0, $i++ (increment) = Jika benar menambah --}}
     @for($i = 0; $i < $array; $i++)
     <span class="badge badge-dark mb-5">{{ $testProc[$i]->nama }}</span>
     @endfor

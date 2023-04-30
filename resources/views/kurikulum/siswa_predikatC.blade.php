@@ -5,7 +5,7 @@
     	<!-- Y Table (Proses Client) -->
  		<div class="card shadow mb-4 mt-3">
          <div class="card-header py-3">
-            <h5 class="m-0 font-weight-bold">Data Siswa Predikat (A)</h5>
+            <h5 class="m-0 font-weight-bold">Data Siswa Predikat (C)</h5>
          </div>
       <div class="card-body">
       	<!-- Tunjukan Library searchnya atau filter tabelnya  -->
@@ -39,5 +39,5 @@
             </div>
 					</div>	
 			</div>
-	
+	</div>
 @endsection

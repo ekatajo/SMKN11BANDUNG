@@ -261,12 +261,12 @@
                             @php $i=1 @endphp
                              @foreach($logN as $log)
                          <tr>
-                           <td>{{ $log->nip }}</td>
-                               <td>{{ $log->keterangan }}</td>
-                          <td>{{ $log->mapel->kode }} - {{ $log->mapel->nama }}</td>
-                          <td>{{ $log->komponen->nama }}</td>
-                          <td>{{ $log->nis}}</td>
-                          <td>{{$log->created_at->diffForHumans()}}</td>
+                           <td>{{ $log->nip ?? 'Tidak Tersedia' }}</td>
+                               <td>{{ $log->keterangan ?? 'Tidak Tersedia'}}</td>
+                          <td>{{ $log->mapel->kode ?? 'Tidak Tersedia'}} - {{ $log->mapel->nama ?? 'Tidak Tersedia'}}</td>
+                          <td>{{ $log->komponen->nama ?? 'Tidak Tersedia'}}</td>
+                          <td>{{ $log->nis ?? 'Tidak Tersedia'}}</td>
+                          <td>{{$log->created_at->diffForHumans() ?? 'Tidak Tersedia'}}</td>
                         </tr>
                             @endforeach
                         </tbody>
@@ -293,11 +293,11 @@
               @php $i=1 @endphp
               @foreach($logK as $log)
               <tr>
-                  <td>{{ $log->nip }}</td>
-                   <td>{{ $log->keterangan }}</td>
+                  <td>{{ $log->nip ?? 'Tidak Tersedia'}}</td>
+                   <td>{{ $log->keterangan ?? 'Tidak Tersedia'}}</td>
                    <!-- Memanggil langsung method Mapel di model LogKomponen -->
-                   <td>{{ $log->mapel->kode }} - {{ $log->mapel->nama }}</td>
-                   <td>{{ $log->komponen->nama }}</td>
+                   <td>{{ $log->mapel->kode ?? 'Tidak Tersedia'}} - {{ $log->mapel->nama ?? 'Tidak Tersedia'}}</td>
+                   <td>{{ $log->komponen->nama ?? 'Tidak Tersedia'}}</td>
                   <td>{{$log->created_at->diffForHumans()}}</td>
               </tr>
                  @endforeach

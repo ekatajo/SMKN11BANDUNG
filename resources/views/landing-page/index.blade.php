@@ -63,7 +63,7 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero1" class="hero1 d-flex align-items-center">
     <div class="container">
-    <div class="row gy-4 d-flex justify-content-between"><div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center"><h2 data-aos="fade-up" class="aos-init aos-animate">Raport Diagnostik</h2><p data-aos="fade-up" data-aos-delay="100" class="aos-init aos-animate">Aplikasi Raport Diagnostik ini adalah aplikasi
+    <div class="row gy-4 d-flex justify-content-between"><div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center"><h2 data-aos="fade-up" class="aos-init aos-animate">Raport Diagnostik</h2><p data-aos="fade-up" data-aos-delay="100" class="aos-init aos-animate">Aplikasi Raport Diagnostik adalah aplikasi
 berbasis online-Website bertujuan untuk membantu 
 mendiagnosa atau mengidentifikasi Dan mengetahui
 Karakter kompetensi siswa didalam mata pelajaran tertentu</p><div class="row gy-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="400"><div class="col-lg-3 col-6"><div class="stats-item text-center w-100 h-100"></div></div></div></div><div class="col-lg-5 order-1 order-lg-2 hero-img aos-init aos-animate" data-aos="zoom-out"> <img src="assets/img/20230131_170949.png" class="img-fluid mb-3 mb-lg-0" alt="" style="width: 490px;"></div></div>
@@ -84,15 +84,16 @@ Karakter kompetensi siswa didalam mata pelajaran tertentu</p><div class="row gy-
         </div>
 
         <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out">
-        <h2 data-aos="fade-up">Teknologi</h2>
-          <p data-aos="fade-up" data-aos-delay="100">Raport Diagnostik Menggunakan beberapa Project open source untuk bekerja dengan sebaik
-mungkin diantaranya :
-
-Menggunakan Framework Laravel untuk backend
-Menggunakan Booststrap 5 untuk bagian frontend
-Menggunakan figma untuk desain
-Text editor sublime text & visual studio code
-Excel dan PDF untuk Ekspor & Import dat</p>
+        <h2 data-aos="fade-up">Tentang Kami</h2>
+          <p data-aos="fade-up" data-aos-delay="100">Raport Diagnostik dibangun pada 20 Agustus 2022, Dengan beranggotakan :
+          <ul>
+            <li><a href="https://www.instagram.com/fahrizzaa__/" style="text-decoration: none; color: white;">Fahrizza Alfairuzabady Misbah</a></li>
+            <li><a href="https://www.instagram.com/galang_raka_saputra/" style="text-decoration: none; color: white;">Galang Raka Saputra</a></li>
+            <li><a href="https://www.instagram.com/panjisatriawannn/" style="text-decoration: none; color: white;">Muhamad Panji Satriawan</a></li>
+            <li><a href="https://www.instagram.com/rasdi_syahwal_/" style="text-decoration: none; color: white;">Rasdi Syahwal Maulana</a></li>
+            <li><a href="https://www.instagram.com/zzaaxs_/" style="text-decoration: none; color: white;">Refalza Satria Ardhika</a></li>
+          </ul>
+          </p>
         </div>
 
       </div>
@@ -120,7 +121,7 @@ Excel dan PDF untuk Ekspor & Import dat</p>
                 </h3>
                 <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                   <div class="accordion-body">
-                  Aplikasi Raport Diagnostik ini adalah aplikasi berbasis online-Website bertujuan untuk membantu mendiagnosa atau mengidentifikasi Dan mengetahui Karakter kompetensi siswa didalam mata pelajaran tertentu
+                  Aplikasi Raport Diagnostik adalah aplikasi berbasis online-Website bertujuan untuk membantu mendiagnosa atau mengidentifikasi Dan mengetahui Karakter kompetensi siswa didalam mata pelajaran tertentu
                   </div>
                 </div>
               </div><!-- # Faq item-->
@@ -129,7 +130,7 @@ Excel dan PDF untuk Ekspor & Import dat</p>
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
                     <i class="bi bi-question-circle question-icon"></i>
-                    Mengapa Dibuat Aplikasi Ini?
+                    Mengapa Aplikasi Ini Dibuat?
                   </button>
                 </h3>
                 <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
@@ -143,12 +144,12 @@ Excel dan PDF untuk Ekspor & Import dat</p>
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
                     <i class="bi bi-question-circle question-icon"></i>
-                    Apakah Seluruh Siswa Disekolah Bisa Mengaksesnya?
+                    Apakah Ini Diperuntukan Untuk Seluruh Kelas?
                   </button>
                 </h3>
                 <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                   <div class="accordion-body">
-                    Tidak Aplikasi Ini Diperuntukan Untuk Kelas 10 Saja 
+                    Tidak, Aplikasi Ini Diperuntukan Untuk Kelas 10 Saja 
                   </div>
                 </div>
               </div><!-- # Faq item-->
@@ -163,7 +164,7 @@ Excel dan PDF untuk Ekspor & Import dat</p>
                 <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                   <div class="accordion-body">
                     <i class="bi bi-question-circle question-icon"></i>
-                    Aplikasi Raport Diagnostik Ini Digunakan Untuk Melihat Karakter Para Siswa 
+                    Aplikasi Raport Diagnostik Ini Digunakan Untuk Membantu Guru Melihat Dan Mengetahui Setiap Karakter Para Siswa 
                   </div>
                 </div>
               </div><!-- # Faq item-->
@@ -177,7 +178,7 @@ Excel dan PDF untuk Ekspor & Import dat</p>
                 </h3>
                 <div id="faq-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                   <div class="accordion-body">
-                    Aplikasi Ini Diperuntukan Kepada Sekolah Dan Yang Bisa Mengaksesnya Hanya Pihak Kurikulum, Guru Mata Pelajaran, Dan Siswa 
+                    Aplikasi Ini Diperuntukan Kepada Sekolah Dan Yang Bisa Mengaksesnya Hanya Pihak Kurikulum, Guru, Dan Siswa 
                   </div>
                 </div>
               </div><!-- # Faq item-->
